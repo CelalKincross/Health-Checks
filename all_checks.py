@@ -3,7 +3,7 @@ import sys
 
 def check_reboot():
 	'''returns true if the computer has a pending reboot'''
-	pass
+	return os.path.exist("/run/reboot-required")
 
 def main():
 	if check_reboot():
