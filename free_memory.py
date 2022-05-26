@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 
 def main():
-	pass
-
+	'''calculates the availble memory'''
 main()
 
