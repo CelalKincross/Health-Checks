@@ -1,3 +1,3 @@
-# Health-Checks
+# Python-Scripts
 
-I am editing the README file. Adding some more details about the project description.
+Python scripts from Google IT Automation with Python. Includes google example scripts, scripts created to solve exercises, and scripts made for the google module exams. 
