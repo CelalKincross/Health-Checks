@@ -1,0 +1,53 @@
+Binary files /Users/w.yang-leeyoung/python_scripts/.DS_Store and /Users/w.yang-leeyoung/Desktop/Yang-Lee/courses/Google Automation IT/python_scripts/.DS_Store differ
+Only in /Users/w.yang-leeyoung/python_scripts: .gitignore
+Common subdirectories: /Users/w.yang-leeyoung/python_scripts/__pycache__ and /Users/w.yang-leeyoung/Desktop/Yang-Lee/courses/Google Automation IT/python_scripts/__pycache__
+Only in /Users/w.yang-leeyoung/python_scripts: automatedCall.py
+Only in /Users/w.yang-leeyoung/python_scripts: differentfiles.txt
+Only in /Users/w.yang-leeyoung/Desktop/Yang-Lee/courses/Google Automation IT/python_scripts: error_file.txt
+diff -u /Users/w.yang-leeyoung/python_scripts/generate_report.py /Users/w.yang-leeyoung/Desktop/Yang-Lee/courses/Google Automation IT/python_scripts/generate_report.py
+--- /Users/w.yang-leeyoung/python_scripts/generate_report.py	2022-03-14 12:22:16.000000000 +0800
++++ /Users/w.yang-leeyoung/Desktop/Yang-Lee/courses/Google Automation IT/python_scripts/generate_report.py	2022-03-23 12:11:41.000000000 +0800
+@@ -18,5 +18,7 @@
+             employee_list.append(data)
+     return employee_list
+ 
+-employee_list = read_employees("~/employee.csv")
+-print(employee_list)
+\ No newline at end of file
++employee_list = read_employees("./employee.csv")
++print(employee_list)
++
++
+Only in /Users/w.yang-leeyoung/Desktop/Yang-Lee/courses/Google Automation IT/python_scripts: hellow.command
+Only in /Users/w.yang-leeyoung/Desktop/Yang-Lee/courses/Google Automation IT/python_scripts: hellow.command.py
+diff -u /Users/w.yang-leeyoung/python_scripts/messages.py /Users/w.yang-leeyoung/Desktop/Yang-Lee/courses/Google Automation IT/python_scripts/messages.py
+--- /Users/w.yang-leeyoung/python_scripts/messages.py	2022-06-02 15:56:35.000000000 +0800
++++ /Users/w.yang-leeyoung/Desktop/Yang-Lee/courses/Google Automation IT/python_scripts/messages.py	2020-10-07 22:22:53.000000000 +0800
+@@ -10,13 +10,13 @@
+ import schedule 
+ import random
+ 
+-cellphone = enterphone_here
+-twilio_number = entertwiliophonehere8
++cellphone = +886921979822
++twilio_number = +17144647598
+ 
+ 
+ def send_message(quote):
+-    account = "acc#"
+-    token = "token#"
++    account = "AC31454ae5776d853457c8e952e61f1279"
++    token = "5821542ec92b91e15ed4de7ed1f2a3c3"
+     client = Client(account, token)
+ 
+     client.messages.create(
+Only in /Users/w.yang-leeyoung/python_scripts: one
+Only in /Users/w.yang-leeyoung/python_scripts: output.txt
+Only in /Users/w.yang-leeyoung/Desktop/Yang-Lee/courses/Google Automation IT/python_scripts: outtext.txt
+Only in /Users/w.yang-leeyoung/Desktop/Yang-Lee/courses/Google Automation IT/python_scripts: stdout_ex.py
+Only in /Users/w.yang-leeyoung/Desktop/Yang-Lee/courses/Google Automation IT/python_scripts: streams_err.py
+Only in /Users/w.yang-leeyoung/Desktop/Yang-Lee/courses/Google Automation IT/python_scripts: syslog.log
+Only in /Users/w.yang-leeyoung/Desktop/Yang-Lee/courses/Google Automation IT/python_scripts: textScheduler.py
+Only in /Users/w.yang-leeyoung/Desktop/Yang-Lee/courses/Google Automation IT/python_scripts: ticky_check.py
+Only in /Users/w.yang-leeyoung/Desktop/Yang-Lee/courses/Google Automation IT/python_scripts: usage.py
+Only in /Users/w.yang-leeyoung/Desktop/Yang-Lee/courses/Google Automation IT/python_scripts: validate_user.py
